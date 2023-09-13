@@ -1,5 +1,6 @@
 const userModel = require('../models/userModel')
 const bcrypt = require('bcryptjs')
+
 const registerController = async (req, res) => {
 
     try{
@@ -26,7 +27,7 @@ const registerController = async (req, res) => {
           success:true,
           message:'User Registered Successfully',
           user
-        })
+        });
     }    
 
         

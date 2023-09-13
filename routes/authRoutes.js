@@ -6,6 +6,8 @@ const router = express.Router();
 
 //routes
 //Register || Post
+
+
 router.post('/register',function(req, res){
     registerController
 })
